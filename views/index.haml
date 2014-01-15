@@ -1,0 +1,12 @@
+%h3 SpaceCats
+%a(href="/spacecats/new")
+  Create a new spacecat
+  - unless @spacecats.empty?
+    %ul#spacecat
+    - @spacecats.each do |spacecat|
+      %li{:id => "spacecat-#{spacecat.id}"}
+        %a(href="/spacecats/#{spacecat.id}")= spacecat.name
+        %a(href="/spacecats/edit/#{spacecat.id}") EDIT
+        %a(href="/spacecats/delete/#{spacecat.id}") DELETE
+  - else
+    %p No spacecat here!

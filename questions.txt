@@ -1,0 +1,23 @@
+Now, answer these questions:
+
+What is Sinatra? Where does it run?
+Sinatra is a web framework/library for building small web apps. It runs on Heroku.
+
+What is a Gemfile? How do you use it in your Sinatra Application? Give step by step instructions.
+A Gemfile is al list of gems used in your application
+
+
+What is an ORM? What are the basic features of an ORM? Why is it helpful?
+An ORM is an Object Relational Mapper.
+In applications, tables are classes and rows are instance of those classes, so it 
+
+
+What is the public folder? What do we use it for?
+The public folder stores images, css, and javascript
+
+
+What is REST? Why is it useful?
+REST stands for Representational State Transfer. It is useful for interacting with a database via urls.
+
+Suppose I, with my browser, send an HTTP get request to the route that will render the view of all the SpaceCats. Walk me through step by step how your application handles that request.
+
